@@ -1,1 +1,73 @@
+// Custom Theming for Angular Material
+// For more information: https://material.angular.io/guide/theming
+@use "@angular/material" as mat;
+// Plus imports for other components in your app.
+
+// Include the common styles for Angular Material. We include this here so that you only
+// have to load a single css file for Angular Material in your app.
+// Be sure that you only ever include this mixin once!
+@include mat.core();
+
+// Define the palettes for your theme using the Material Design palettes available in palette.scss
+// (imported above). For each palette, you can optionally specify a default, lighter, and darker
+// hue. Available color palettes: https://material.io/design/color/
+$shiny-stones-primary: mat.define-palette(mat.$indigo-palette);
+$shiny-stones-accent: mat.define-palette(mat.$pink-palette, A200, A100, A400);
+
+// The warn palette is optional (defaults to red).
+$shiny-stones-warn: mat.define-palette(mat.$red-palette);
+
+// Create the theme object. A theme consists of configurations for individual
+// theming systems such as "color" or "typography".
+$shiny-stones-theme: mat.define-light-theme(
+  (
+    color: (
+      primary: $shiny-stones-primary,
+      accent: $shiny-stones-accent,
+      warn: $shiny-stones-warn,
+    ),
+    typography: mat.define-typography-config(),
+    density: 0,
+  )
+);
+
+// Include theme styles for core and each component used in your app.
+// Alternatively, you can import and @include the theme mixins for each component
+// that you are using.
+@include mat.all-component-themes($shiny-stones-theme);
+
 /* You can add global styles to this file, and also import other style files */
+
+:root {
+  --primary-color: #fff8e7;
+  --primary-40-color: #f1e2c6;
+  --secondary-color: #2c2c2c;
+}
+
+html,
+body {
+  height: 100%;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.paragraphe {
+  width: 100%;
+  background-color: var(--primary-40-color);
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  border-radius: 25px;
+  padding: 20px;
+  align-items: center;
+  h2 {
+    font-size: 24px;
+    margin: 0px;
+    margin-bottom: 8px;
+    font-weight: normal;
+  }
+}
