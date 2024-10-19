@@ -1,9 +1,16 @@
 .accueil-root {
   padding: 12px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  gap: 34px;
 }
 
 .paragraphe-shiny {
   border-radius: 25px 100px 100px 25px;
+}
+
+.paragraphe-galerie {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
 }

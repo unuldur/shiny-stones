@@ -36,11 +36,53 @@ $shiny-stones-theme: mat.define-light-theme(
 // that you are using.
 @include mat.all-component-themes($shiny-stones-theme);
 
+// Small tablets and large smartphones (landscape view)
+$screen-sm-min: 576px;
+
+// Small tablets (portrait view)
+$screen-md-min: 768px;
+
+// Tablets and small desktops
+$screen-lg-min: 992px;
+
+// Large tablets and desktops
+$screen-xl-min: 1200px;
+
+// Small devices
+@mixin sm {
+  @media (min-width: #{$screen-sm-min}) {
+    @content;
+  }
+}
+
+// Medium devices
+@mixin md {
+  @media (min-width: #{$screen-md-min}) {
+    @content;
+  }
+}
+
+// Large devices
+@mixin lg {
+  @media (min-width: #{$screen-lg-min}) {
+    @content;
+  }
+}
+
+// Extra large devices
+@mixin xl {
+  @media (min-width: #{$screen-xl-min}) {
+    @content;
+  }
+}
+
 /* You can add global styles to this file, and also import other style files */
 
 :root {
   --primary-color: #fff8e7;
   --primary-40-color: #f1e2c6;
+  --primary-60-color: #a09c91;
+
   --secondary-color: #2c2c2c;
 }
 
@@ -56,11 +98,10 @@ body {
 }
 
 .paragraphe {
-  width: 100%;
   background-color: var(--primary-40-color);
   display: flex;
   flex-direction: row;
-  gap: 12px;
+  gap: 24px;
   border-radius: 25px;
   padding: 20px;
   align-items: center;
@@ -69,5 +110,46 @@ body {
     margin: 0px;
     margin-bottom: 8px;
     font-weight: normal;
+  }
+}
+
+.container {
+  // 576px window width and more
+  @include sm {
+    max-width: 640px;
+  }
+  @include md {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 768px;
+  }
+  // 992px window width and more
+  @include lg {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1024px;
+  }
+  @include xl {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1280px;
+  }
+}
+
+.galerie {
+  display: grid;
+  gap: 24px;
+  padding: 12px;
+  @include sm {
+    grid-template-columns: 1fr;
+  }
+  @include md {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  @include lg {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  @include xl {
+    grid-template-columns: repeat(3, 1fr);
   }
 }
