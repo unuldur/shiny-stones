@@ -6,7 +6,9 @@
 }
 
 .paragraphe-shiny {
-  border-radius: 25px 100px 100px 25px;
+  @media (min-width: 768px) {
+    border-radius: 25px 100px 100px 25px;
+  }
 }
 
 .paragraphe-galerie {

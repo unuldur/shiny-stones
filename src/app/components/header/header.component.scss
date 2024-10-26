@@ -15,31 +15,68 @@
   flex-direction: row;
   gap: 10px;
   align-items: center;
-  font-family: unquote("Kaisei Decol");
+  width: 100%;
 }
 .navigation {
   height: 100%;
   display: flex;
   flex-direction: row;
   gap: 16px;
+  font-size: 18px;
   a {
     color: #767676;
     text-decoration: none;
   }
   align-items: end;
-  font-size: 20px;
+  @media (min-width: 576px) {
+    align-self: self-end;
+  }
+  @media (min-width: 768px) {
+    font-size: 22px;
+  }
 }
 .shiny-title {
   font-weight: 500;
-  font-size: 32px;
   line-height: 140%;
   margin: 0px !important;
+  font-size: 28px;
+  @media (min-width: 768px) {
+    font-size: 32px;
+  }
 }
 .shiny-info {
-  font-size: 16px;
+  padding-top: 8px;
+  font-size: 14px;
+  @media (min-width: 768px) {
+    font-size: 16px;
+  }
 }
 
 .active {
   color: var(--primary-color) !important;
   text-decoration: underline !important;
+}
+
+.text-title {
+  font-family: unquote("Kaisei Decol");
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex-direction: row;
+  @media (min-width: 576px) {
+    flex-direction: column;
+    gap: 0px;
+    align-items: start;
+  }
+}
+
+.data-header {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  width: 100%;
+  @media (min-width: 576px) {
+    flex-direction: row;
+    justify-content: space-between;
+  }
 }
