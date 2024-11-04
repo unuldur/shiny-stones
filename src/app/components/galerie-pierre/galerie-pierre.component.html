@@ -1,3 +1,11 @@
+<div class="recherche">
+  <label>Rechercher :</label>
+  <input
+    type="text"
+    [ngModel]="recherche()"
+    (ngModelChange)="recherche.set($event)"
+  />
+</div>
 <div class="trie">
   Trier par :
   <input
@@ -8,7 +16,7 @@
     (ngModelChange)="order.set('ASC')"
     value="ASC"
   />
-  <label for="trieRecent">Plus récent</label>
+  <label for="trieRecent">Nom croissant</label>
 
   <input
     id="trieAncient"
@@ -18,27 +26,27 @@
     (ngModelChange)="order.set('DESC')"
     value="DESC"
   />
-  <label for="trieAncient">Plus ancient</label>
+  <label for="trieAncient">Nom décroissant</label>
 </div>
 <div class="galerieElargie">
   <div class="galerie">
     @for (creation of creations(); track $index) {
-    <div class="creation">
+    <button class="creation" (click)="openModal(creation)">
       <div style="width: 100%">
         <img
           height="200px"
-          [src]="'/assets/images/creations/' + creation.image"
+          [src]="'/assets/images/pierres/' + creation.image"
         />
       </div>
       <span>{{ creation.nom }}</span>
-    </div>
+    </button>
     }
   </div>
 </div>
 <mat-paginator
   class="paginator"
   (page)="setPage($event)"
-  [length]="galeries.length"
+  [length]="lenght()"
   [pageSize]="sizeToNumber[size()]"
   [hidePageSize]="true"
   [pageIndex]="page()"

@@ -1,0 +1,14 @@
+<div class="fiches-pierre">
+  <div class="paragraphe">
+    <div class="paragraphe-galerie">
+      <h2>Fiches de pierre</h2>
+      <span>
+        Chaque fiche met en avant les propriétés, les bienfaits et les
+        caractéristiques uniques de chaque pierre utilisée en lithothérapie.
+        Cliquez sur une pierre pour en apprendre davantage sur les spécificités
+        de la pierre et découvrir celle qui correspondra le mieux à vos besoins.
+      </span>
+      <shiny-stone-galerie-pierre [galeries]="(galerie$ | async) ?? []" />
+    </div>
+  </div>
+</div>

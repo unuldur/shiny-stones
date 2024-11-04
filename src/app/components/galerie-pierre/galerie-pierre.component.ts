@@ -4,15 +4,17 @@ import {
   computed,
   inject,
   Input,
+  model,
   OnChanges,
-  signal,
   Signal,
   WritableSignal,
 } from '@angular/core';
-import { Creation } from '../../interfaces/creation.interface';
+import { MatDialog } from '@angular/material/dialog';
 import { FormsModule } from '@angular/forms';
 import { BreakpointObserver, BreakpointState } from '@angular/cdk/layout';
 import { PageEvent, MatPaginatorModule } from '@angular/material/paginator';
+import { Pierre } from '../../interfaces/pierre.interface';
+import { ModalPierreComponent } from '../modal-pierre/modal-pierre.component';
 
 const breakpoints = [
   '(max-width: 576px)',
@@ -26,25 +28,30 @@ type BreakPoint = (typeof breakpoints)[number];
 type Size = 'xs' | 's' | 'm' | 'l' | 'xl';
 
 @Component({
-  selector: 'shiny-stone-galerie',
+  selector: 'shiny-stone-galerie-pierre',
   standalone: true,
   imports: [CommonModule, FormsModule, MatPaginatorModule],
-  templateUrl: './galerie.component.html',
-  styleUrl: './galerie.component.scss',
+  templateUrl: './galerie-pierre.component.html',
+  styleUrl: './galerie-pierre.component.scss',
 })
-export class GalerieComponent implements OnChanges {
+export class GaleriePierreComponent implements OnChanges {
   private breakpointObserver = inject(BreakpointObserver);
+  readonly dialog = inject(MatDialog);
 
   @Input()
-  public galeries: Creation[] = [];
+  public galeries: Pierre[] = [];
 
-  protected order: WritableSignal<'ASC' | 'DESC'> = signal('ASC');
+  protected order: WritableSignal<'ASC' | 'DESC'> = model('ASC');
 
-  protected page: WritableSignal<number> = signal(0);
+  protected page: WritableSignal<number> = model(0);
 
-  protected size: WritableSignal<Size> = signal('m');
+  protected recherche: WritableSignal<string> = model('');
 
-  protected creations: Signal<Creation[]> = computed(() => []);
+  protected size: WritableSignal<Size> = model('m');
+
+  protected lenght: Signal<number> = computed(() => 0);
+
+  protected creations: Signal<Pierre[]> = computed(() => []);
 
   private readonly breakPointToSize: { [key: string]: Size } = {
     '(max-width: 576px)': 'xs',
@@ -83,16 +90,27 @@ export class GalerieComponent implements OnChanges {
         const order = this.order();
         const page = this.page();
         const size = this.size();
+        const recherche = this.recherche();
         return this.galeries
           .sort((a, b) => {
             return order === 'ASC'
-              ? new Date(a.date).getTime() - new Date(b.date).getTime()
-              : new Date(b.date).getTime() - new Date(a.date).getTime();
+              ? a.nom.localeCompare(b.nom)
+              : b.nom.localeCompare(a.nom);
           })
+          .filter((pierre) =>
+            pierre.nom.toLowerCase().includes(recherche.toLowerCase())
+          )
           .slice(
             page * this.sizeToNumber[size],
             (page + 1) * this.sizeToNumber[size]
           );
+      });
+
+      this.lenght = computed(() => {
+        const recherche = this.recherche();
+        return this.galeries.filter((pierre) =>
+          pierre.nom.toLowerCase().includes(recherche.toLowerCase())
+        ).length;
       });
     }
   }
@@ -109,5 +127,11 @@ export class GalerieComponent implements OnChanges {
 
   protected setPage(e: PageEvent): void {
     this.page.set(e.pageIndex);
+  }
+
+  protected openModal(pierre: Pierre): void {
+    this.dialog.open(ModalPierreComponent, {
+      data: pierre,
+    });
   }
 }

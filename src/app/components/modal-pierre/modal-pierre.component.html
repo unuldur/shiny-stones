@@ -1,0 +1,27 @@
+<div class="modal-pierre" mat-dialog-close>
+  <div class="header-pierre">
+    <h2 mat-dialog-title>{{ pierre.nom }}</h2>
+    <button>X</button>
+  </div>
+  <mat-dialog-content class="mat-typography">
+
+    <div class="infos">
+      <img width="200px" [src]="'/assets/images/pierres/' + pierre.image" />
+      <dl>
+        <dt>Chakra :</dt>
+        <dd>{{ pierre.chakra }}</dd>
+        <dt>Signes astrologique :</dt>
+        <dd>{{ pierre.signesAstrologiques }}</dd>
+        <dt>Purification :</dt>
+        <dd>{{ pierre.purification }}</dd>
+        <dt>Rechargement :</dt>
+        <dd>{{ pierre.rechargement }}</dd>
+      </dl>
+    </div>
+    <p>
+      @for (paragraphe of pierre.paragraphes; track $index) {
+        <p [innerHTML]="paragraphe"></p>
+      }
+    </p>
+  </mat-dialog-content>
+</div>

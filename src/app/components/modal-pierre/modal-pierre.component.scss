@@ -1,0 +1,31 @@
+.modal-pierre {
+  background-color: var(--primary-color);
+  .header-pierre {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    button {
+      background-color: var(--primary-color);
+      margin-top: 16px;
+      margin-right: 16px;
+      height: 24px;
+      width: 24px;
+      border: none;
+      cursor: pointer;
+    }
+  }
+  .infos {
+    display: flex;
+    flex-direction: column;
+    img {
+      align-self: center;
+    }
+    @media (min-width: 768px) {
+      flex-direction: row;
+    }
+    gap: 16px;
+    dt {
+      font-weight: 500;
+    }
+  }
+}
