@@ -1,0 +1,31 @@
+.footer {
+  height: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--secondary-color);
+  position: fixed;
+  bottom: 0px;
+  color: var(--primary-color);
+  padding: 12px;
+  width: 100%;
+  nav {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    padding-right: 18px;
+    a {
+      color: var(--primary-color);
+      display: flex;
+      gap: 4px;
+      justify-content: center;
+      .mail-span {
+        padding-top: 3px;
+        @media (max-width: 768px) {
+          display: none;
+        }
+      }
+    }
+  }
+}

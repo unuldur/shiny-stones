@@ -1,0 +1,14 @@
+.contact {
+  padding: 12px;
+  span {
+    font-size: large;
+    font-weight: 500;
+  }
+  @media (min-width: 768px) {
+    dl {
+      display: grid;
+      gap: 4px;
+      grid-template-columns: 1fr 8fr;
+    }
+  }
+}

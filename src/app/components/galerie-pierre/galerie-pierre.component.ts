@@ -129,6 +129,11 @@ export class GaleriePierreComponent implements OnChanges {
     this.page.set(e.pageIndex);
   }
 
+  protected rechercher(recherche: string): void {
+    this.page.set(0);
+    this.recherche.set(recherche);
+  }
+
   protected openModal(pierre: Pierre): void {
     this.dialog.open(ModalPierreComponent, {
       data: pierre,
