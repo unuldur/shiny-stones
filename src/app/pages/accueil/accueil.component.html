@@ -13,6 +13,16 @@
     <img height="135px" src="assets/images/ShinyLogo.png" />
   </div>
   <div class="paragraphe">
+    <div class="paragraphe-galerie">
+      <h2>Galerie</h2>
+      <span>
+        Ici vous trouverez les différentes créations précédèmment effectuées
+        ainsi que leurs caractéristiques principales.
+      </span>
+      <shiny-stone-galerie [galeries]="(galerie$ | async) ?? []" />
+    </div>
+  </div>
+  <div class="paragraphe">
     <img height="135px" src="assets/images/litotherapie.jfif" />
     <div>
       <h2>Lithotest</h2>
@@ -34,16 +44,6 @@
         Grâce à ses informations, qui resteront confidentielles, je pourrais
         ainsi créer quelque chose qui vous conviendra à 100% et qui sera unique.
       </span>
-    </div>
-  </div>
-  <div class="paragraphe">
-    <div class="paragraphe-galerie">
-      <h2>Galerie</h2>
-      <span>
-        Ici vous trouverez les différentes créations précédèmment effectuées
-        ainsi que leurs caractéristiques principales.
-      </span>
-      <shiny-stone-galerie [galeries]="(galerie$ | async) ?? []" />
     </div>
   </div>
 </div>

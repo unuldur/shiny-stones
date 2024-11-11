@@ -117,6 +117,7 @@ body {
 }
 
 .container {
+  padding-bottom: 3rem;
   // 576px window width and more
   @include sm {
     max-width: 640px;
