@@ -48,7 +48,13 @@
   input {
     border: 1px solid var(--primary-60-color);
     height: 1.5rem;
+    outline: none;
     border-radius: 5px;
+    background-color: var(--primary-20-color);
+    color: var(--primary-font-color);
+    &:focus {
+      box-shadow: inset 0px 0px 0px 1px var(--secondary-color);
+    }
   }
 }
 

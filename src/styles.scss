@@ -78,23 +78,44 @@ $screen-xl-min: 1200px;
 
 /* You can add global styles to this file, and also import other style files */
 
-:root {
-  --primary-color: #fff8e7;
-  --primary-40-color: #f1e2c6;
-  --primary-60-color: #a09c91;
+@font-face {
+  font-family: bellota;
+  src: url(assets/fonts/Bellota-Bold.otf) format("opentype");
+}
 
-  --secondary-color: #2c2c2c;
+@font-face {
+  font-family: rocaOne;
+  src: url(assets/fonts/RocaOne-Rg.ttf) format("truetype");
+}
+
+:root {
+  --primary-color: #e7d3cc;
+  --primary-20-color: #ecddd7;
+  --primary-40-color: #c8b2a5;
+  --primary-60-color: #bca7a0;
+  --primary-font-color: #7b6044;
+  --secondary-color: #5c3f1d;
+  --mat-paginator-container-text-color: #7b6044;
+  --mdc-dialog-subhead-color: #5c3f1d;
 }
 
 html,
 body {
   height: 100%;
   background-color: var(--primary-color);
-  color: var(--secondary-color);
+  color: var(--primary-font-color);
 }
 body {
   margin: 0;
-  font-family: Roboto, "Helvetica Neue", sans-serif;
+  font-family: rocaOne;
+}
+
+button {
+  color: var(--primary-font-color);
+}
+
+img {
+  border-radius: 12px;
 }
 
 .paragraphe {
@@ -105,10 +126,13 @@ body {
   padding: 20px;
   align-items: center;
   h2 {
-    font-size: 24px;
+    font-size: 26px;
+    font-style: italic;
     margin: 0px;
     margin-bottom: 8px;
     font-weight: normal;
+    font-family: bellota;
+    color: var(--secondary-color);
   }
   flex-direction: column;
   @include md {

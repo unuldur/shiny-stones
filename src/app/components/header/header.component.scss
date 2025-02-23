@@ -39,14 +39,13 @@
   font-weight: 500;
   line-height: 140%;
   margin: 0px !important;
-  font-size: 24px;
+  font-size: 20px;
   @media (min-width: 768px) {
     font-size: 32px;
   }
 }
 .shiny-info {
-  padding-top: 8px;
-  font-size: 12px;
+  font-size: 10px;
   @media (min-width: 768px) {
     font-size: 16px;
   }
@@ -58,7 +57,7 @@
 }
 
 .text-title {
-  font-family: unquote("Kaisei Decol");
+  font-family: bellota;
   display: flex;
   gap: 10px;
   align-items: center;
