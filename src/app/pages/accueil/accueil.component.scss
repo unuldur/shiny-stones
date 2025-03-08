@@ -17,3 +17,10 @@
   gap: 12px;
   width: 100%;
 }
+
+.shiny-logo {
+  height: 110px;
+  @media (min-width: 506px) {
+    height: 150px;
+  }
+}

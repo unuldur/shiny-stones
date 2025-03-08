@@ -59,23 +59,35 @@
 .text-title {
   font-family: bellota;
   display: flex;
-  gap: 10px;
+  gap: 0px;
+  display: none;
   align-items: center;
   flex-direction: row;
   @media (min-width: 576px) {
     flex-direction: column;
-    gap: 0px;
     align-items: start;
+    display: block;
   }
 }
 
 .data-header {
   display: flex;
   flex-direction: column;
+  align-self: self-end;
+  padding-bottom: 10px;
   gap: 3px;
   width: 100%;
   @media (min-width: 576px) {
     flex-direction: row;
     justify-content: space-between;
+    align-self: auto;
+    padding-bottom: 0px;
+  }
+}
+
+.shiny-logo {
+  height: 3rem;
+  @media (min-width: 576px) {
+    height: 4rem;
   }
 }
