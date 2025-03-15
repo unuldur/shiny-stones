@@ -28,6 +28,7 @@
     text-decoration: none;
   }
   align-items: end;
+  align-self: self-end;
   @media (min-width: 576px) {
     align-self: self-end;
   }
@@ -58,14 +59,10 @@
 
 .text-title {
   font-family: bellota;
-  display: flex;
   gap: 0px;
   display: none;
-  align-items: center;
-  flex-direction: row;
-  @media (min-width: 576px) {
-    flex-direction: column;
-    align-items: start;
+  align-self: self-end;
+  @media (min-width: 630px) {
     display: block;
   }
 }
@@ -77,11 +74,12 @@
   padding-bottom: 10px;
   gap: 3px;
   width: 100%;
+  height: 100%;
   @media (min-width: 576px) {
     flex-direction: row;
     justify-content: space-between;
     align-self: auto;
-    padding-bottom: 0px;
+    padding-bottom: 7px;
   }
 }
 
