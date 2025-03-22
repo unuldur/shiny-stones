@@ -61,6 +61,7 @@
   font-family: bellota;
   gap: 0px;
   display: none;
+  text-wrap-mode: nowrap;
   align-self: self-end;
   @media (min-width: 630px) {
     display: block;
@@ -77,7 +78,7 @@
   height: 100%;
   @media (min-width: 576px) {
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: end;
     align-self: auto;
     padding-bottom: 7px;
   }
@@ -85,7 +86,12 @@
 
 .shiny-logo {
   height: 3rem;
+  justify-content: center;
   @media (min-width: 576px) {
-    height: 4rem;
+    height: 3em;
   }
+}
+
+.shiny-group-logo {
+  flex-direction: column;
 }
