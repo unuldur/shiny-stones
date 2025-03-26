@@ -8,6 +8,13 @@
   bottom: 0px;
   color: var(--primary-color);
   padding: 12px;
+  a {
+    color: var(--primary-color);
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
   nav {
     display: flex;
     gap: 8px;

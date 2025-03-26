@@ -30,8 +30,11 @@
           [src]="'/assets/images/creations/' + creation.image"
         />
       </div>
-      <span>{{ creation.nom }}</span>
-      <span class="galerie-description">{{ creation.description }}</span>
+      <p class="galerie-description">
+        <b>{{ creation.nom }}</b>
+        <br />
+        <span>{{ creation.description }}</span>
+      </p>
     </div>
     }
   </div>
