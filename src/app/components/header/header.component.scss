@@ -39,14 +39,13 @@
   font-weight: 500;
   line-height: 140%;
   margin: 0px !important;
-  font-size: 24px;
+  font-size: 20px;
   @media (min-width: 768px) {
     font-size: 32px;
   }
 }
 .shiny-info {
-  padding-top: 8px;
-  font-size: 12px;
+  font-size: 10px;
   @media (min-width: 768px) {
     font-size: 16px;
   }
@@ -58,25 +57,37 @@
 }
 
 .text-title {
-  font-family: unquote("Kaisei Decol");
+  font-family: bellota;
   display: flex;
-  gap: 10px;
+  gap: 0px;
+  display: none;
   align-items: center;
   flex-direction: row;
   @media (min-width: 576px) {
     flex-direction: column;
-    gap: 0px;
     align-items: start;
+    display: block;
   }
 }
 
 .data-header {
   display: flex;
   flex-direction: column;
+  align-self: self-end;
+  padding-bottom: 10px;
   gap: 3px;
   width: 100%;
   @media (min-width: 576px) {
     flex-direction: row;
     justify-content: space-between;
+    align-self: auto;
+    padding-bottom: 0px;
+  }
+}
+
+.shiny-logo {
+  height: 3rem;
+  @media (min-width: 576px) {
+    height: 4rem;
   }
 }

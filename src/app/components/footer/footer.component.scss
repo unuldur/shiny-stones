@@ -5,16 +5,15 @@
   align-items: center;
   justify-content: space-between;
   background-color: var(--secondary-color);
-  position: fixed;
+  position: sticky;
   bottom: 0px;
   color: var(--primary-color);
   padding: 12px;
-  width: 100%;
   nav {
     display: flex;
     gap: 8px;
     justify-content: center;
-    padding-right: 18px;
+    padding-right: 4px;
     a {
       color: var(--primary-color);
       display: flex;
