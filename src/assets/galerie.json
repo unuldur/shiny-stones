@@ -1,206 +1,87 @@
 {
   "galerie": [
     {
-      "nom": "Cabochon en labradorite",
-      "description": "Magnifique cabochon en labradorite un gros texte pour voir ce que ça donne si ça se trouve ça va être pas beau à tester",
+      "nom": "Bracelet calcédoine améthyste nacre",
       "image": "image_1.jfif",
       "date": "2020-01-01"
     },
     {
-      "nom": "Bracelet de 6 mm en améthyste, nacre et calcédoine",
-      "description": "Magnifique cabochon en labradorite",
+      "nom": "Bracelet de 6 mm en labradorite noire, nacre et calcédoine",
       "image": "image_2.jfif",
       "date": "2020-01-02"
     },
     {
-      "nom": "Bracelet de 6 mm en calcédoine",
-      "description": "Magnifique cabochon en labradorite",
+      "nom": "Bracelet de 6 mm en oeil de tigre et pyrite de fer",
       "image": "image_3.jfif",
       "date": "2020-01-03"
     },
     {
-      "nom": "Bracelet de 6 mm en perle de bois, améthyste et hématite",
-      "description": "Magnifique cabochon en labradorite",
-      "image": "image_4.jfif",
-      "date": "2020-01-04"
-    },
-    {
-      "nom": "Bracelet de 6 mm en nacre, calcédoine et labradorite",
-      "description": "Magnifique cabochon en labradorite",
+      "nom": "Bracelet de 8 mm en grenat et howlite ",
       "image": "image_5.jfif",
       "date": "2020-01-05"
     },
     {
-      "nom": "Bracelet de 6 mm en oeil de tigre et pyrite",
-      "description": "Magnifique cabochon en labradorite",
-      "image": "image_6.jfif",
-      "date": "2020-01-06"
-    },
-    {
-      "nom": "Pendentif en calcédoine",
-      "description": "Magnifique cabochon en labradorite",
+      "nom": "Bracelet en malachite, grenat et quartz fumé",
       "image": "image_7.jfif",
       "date": "2020-01-07"
     },
     {
-      "nom": "Bracelet de 8 mm en howlite et quartz",
-      "description": "Magnifique cabochon en labradorite",
-      "image": "image_8.jfif",
-      "date": "2020-01-08"
-    },
-    {
       "nom": "Pendentif en malachite",
-      "description": "Magnifique cabochon en labradorite",
-      "image": "image_9.jfif",
-      "date": "2020-01-09"
-    },
-    {
-      "nom": "Bracelet de 8 mm en howlite et grenat",
-      "description": "Magnifique cabochon en labradorite",
       "image": "image_10.jfif",
       "date": "2020-01-10"
     },
     {
-      "nom": "Collier en perles de 6 mm en améthyste et calcédoine",
-      "description": "Magnifique cabochon en labradorite",
+      "nom": "Bracelet en perles de 6 mm d'hématite",
       "image": "image_11.jfif",
       "date": "2020-01-11"
     },
     {
-      "nom": "Bracelet de 8 mm en malachite, grenat, quartz fumé",
-      "description": "Magnifique cabochon en labradorite",
+      "nom": "Bracelet de 8 mm en grenat et howlite",
       "image": "image_12.jfif",
       "date": "2020-01-12"
     },
     {
-      "nom": "Boucle d'oreille en labradorite bleue",
-      "description": "Magnifique cabochon en labradorite",
-      "image": "image_13.jfif",
-      "date": "2020-01-13"
-    },
-    {
-      "nom": "Bracelet de 6 mm en agate, améthyste et nacre",
-      "description": "Magnifique cabochon en labradorite",
-      "image": "image_14.jfif",
-      "date": "2020-01-14"
-    },
-    {
-      "nom": "Bracelet de 6 mm en pyrite",
-      "description": "Magnifique cabochon en labradorite",
-      "image": "image_15.jfif",
-      "date": "2020-01-15"
-    },
-    {
-      "nom": "Bracelet de 8 mm en oeil de tigre multicolore",
-      "description": "Magnifique cabochon en labradorite",
-      "image": "image_16.jfif",
-      "date": "2020-01-16"
-    },
-    {
-      "nom": "Boucle d'oreille en labradorite bleue",
-      "description": "Magnifique cabochon en labradorite",
-      "image": "image_17.jfif",
-      "date": "2020-01-17"
-    },
-    {
-      "nom": "Pendentif en malachite",
-      "description": "Magnifique cabochon en labradorite",
-      "image": "image_18.jfif",
-      "date": "2020-01-18"
-    },
-    {
-      "nom": "Bracelet de 8 mm en pierre de lune",
-      "description": "Magnifique cabochon en labradorite",
-      "image": "image_19.jfif",
-      "date": "2020-01-19"
-    },
-    {
-      "nom": "Boucle d'oreille en agate du Botswana",
-      "description": "Magnifique cabochon en labradorite",
+      "nom": "Bracelet en perles de 6 mm en hématite et rhodocrosite",
       "image": "image_20.jfif",
       "date": "2020-01-20"
     },
     {
-      "nom": "Pendentif en calcédoine",
-      "description": "Magnifique cabochon en labradorite",
-      "image": "image_21.jfif",
-      "date": "2020-01-21"
-    },
-    {
-      "nom": "Bracelet de 6 mm en améthyste et calcédoine",
-      "description": "Magnifique cabochon en labradorite",
-      "image": "image_22.jfif",
-      "date": "2020-01-22"
-    },
-    {
-      "nom": "Bracelet de 8 mm en grenat et howlite",
-      "description": "Magnifique cabochon en labradorite",
-      "image": "image_23.jfif",
-      "date": "2020-01-23"
-    },
-    {
-      "nom": "Bracelet de 8 mm en grenat et howlite",
-      "description": "Magnifique cabochon en labradorite",
+      "nom": "Bracelet de 6 mm en calcédoine",
       "image": "image_24.jfif",
       "date": "2020-01-24"
     },
     {
-      "nom": "Bracelet de 6 mm en onyx",
-      "description": "Magnifique cabochon en labradorite",
+      "nom": "Bracelet de 6 mm en hématite, améthyste et perles de bois",
       "image": "image_25.jfif",
       "date": "2020-01-25"
     },
     {
-      "nom": "Bracelet de Noël",
-      "description": "Magnifique cabochon en labradorite",
-      "image": "image_26.jfif",
-      "date": "2020-01-26"
-    },
-    {
-      "nom": "Bracelet tressé avec des perles de 6 mm en rhodocrosite, grenat et quartz fumé",
-      "description": "Magnifique cabochon en labradorite",
+      "nom": "Collier en perles de 6 mm en calcédoine et améthyste",
       "image": "image_27.jfif",
       "date": "2020-01-27"
     },
     {
-      "nom": "Bracelet de 8 mm en howlite ",
-      "description": "Magnifique cabochon en labradorite",
+      "nom": "Boucle d'oreille en labradorite bleue",
       "image": "image_28.jfif",
       "date": "2020-01-28"
     },
     {
-      "nom": "Bracelet de Noël",
-      "description": "Magnifique cabochon en labradorite",
+      "nom": "Bracelet en perles de 6 mm d'agate",
       "image": "image_29.jfif",
       "date": "2020-01-29"
     },
     {
-      "nom": "Bracelet de Noël",
-      "description": "Magnifique cabochon en labradorite",
-      "image": "image_30.jfif",
-      "date": "2020-01-30"
-    },
-    {
-      "nom": "Bracelet de Noël",
-      "description": "Magnifique cabochon en labradorite",
+      "nom": "Bracelet en perles de 8 mm en perles de lune",
       "image": "image_31.jfif",
       "date": "2020-01-31"
     },
     {
-      "nom": "Bracelet de 8 mm en oeil de tigre, malachite, sodalite et quartz rose",
-      "description": "Magnifique cabochon en labradorite",
-      "image": "image_32.jfif",
-      "date": "2020-02-01"
-    },
-    {
-      "nom": "Bracelet de 6 mm en hématite et rhodocrosite",
-      "description": "Magnifique cabochon en labradorite",
+      "nom": "Bracelet de 6 mm en améthyste et calcédoine",
       "image": "image_33.jfif",
       "date": "2020-02-02"
     },
     {
-      "nom": "Bracelet en amazonite multicolore de 8 mm, rhodocrosite et perles de bois",
-      "description": "Magnifique cabochon en labradorite",
+      "nom": "Bracelet en perles de 6 mm en calcédoine, labradorite noire et nacre",
       "image": "image_34.jfif",
       "date": "2020-02-03"
     }
