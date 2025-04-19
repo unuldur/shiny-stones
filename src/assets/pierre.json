@@ -87,16 +87,17 @@
       ],
       "image": "agateMexique.png"
     },
-	{
+    {
       "nom": "Améthyste",
       "chakra": "Couronne,Troisième oeil",
       "signesAstrologiques": "Lion,Bélier, Scorpion",
-	  "Origine": "Australie, Brésil, Madagascar, Russie, Uruguay"
+      "origine": "Australie, Brésil, Madagascar, Russie, Uruguay",
       "purification": "Eau distillée, Sel, Terre, Encens",
       "rechargement": "Pleine lune",
       "paragraphes": [
-        "D’un point de vue psychologique, pierre d’humilité et de sagesse, elle stimule la créativité, l’imagination et la clarté. Elle favorise la méditation, la concentration et l’élévation spirituelle. Elle apaise la colère, la peur, les inquiétudes, les angoisses, la tristesse et le chagrin. Elle aide à lutter contre les addictions (drogue, alcool, tabac) ou contre les TOC. C’est une pierre de passage pouvant être utilisée en cas de perte d’un proche. C’est une très bonne pierre de purification de l’environnement en apportant paix et relaxation. Elle permet d’accepter et d’intégrer les nouveautés, les changements." 
-      ],"Sur le plan physique, elle permet de soulager l’hypertension et les douleurs musculaires. Elle est efficace pour libérer les tensions du haut du dos, de la nuque et des épaules. Elle permet de trouver le calme avant l’endormissement et favorise les rêves. Elle calme l’hyperactivité, protège la mémoire, le cœur et les voies respiratoires. Elle accélère le processus de cicatrisation et de guérison. Elle peut aider à soulager les maux de tête et les addictions, elle est d’ailleurs particulièrement recommandée pour l’élimination des toxines. Elle stimule la fertilité, la production d’hormone et les glandes endocriniennes. Elle favorise l’harmonisation des cycles menstruels "
+        "D’un point de vue psychologique, pierre d’humilité et de sagesse, elle stimule la créativité, l’imagination et la clarté. Elle favorise la méditation, la concentration et l’élévation spirituelle. Elle apaise la colère, la peur, les inquiétudes, les angoisses, la tristesse et le chagrin. Elle aide à lutter contre les addictions (drogue, alcool, tabac) ou contre les TOC. C’est une pierre de passage pouvant être utilisée en cas de perte d’un proche. C’est une très bonne pierre de purification de l’environnement en apportant paix et relaxation. Elle permet d’accepter et d’intégrer les nouveautés, les changements.",
+        "Sur le plan physique, elle permet de soulager l’hypertension et les douleurs musculaires. Elle est efficace pour libérer les tensions du haut du dos, de la nuque et des épaules. Elle permet de trouver le calme avant l’endormissement et favorise les rêves. Elle calme l’hyperactivité, protège la mémoire, le cœur et les voies respiratoires. Elle accélère le processus de cicatrisation et de guérison. Elle peut aider à soulager les maux de tête et les addictions, elle est d’ailleurs particulièrement recommandée pour l’élimination des toxines. Elle stimule la fertilité, la production d’hormone et les glandes endocriniennes. Elle favorise l’harmonisation des cycles menstruels "
+      ],
       "image": "Améthyste.jpg"
     },
     {
