@@ -4,6 +4,7 @@ export interface Pierre {
   signesAstrologiques?: string;
   purification?: string;
   rechargement?: string;
+  origines?: string;
   paragraphes: string[];
   image: string;
 }
