@@ -1,17 +1,38 @@
 <div class="contact">
-  <span> Pour me contacter : </span>
+  <span> Pour demander votre lithotest, vous pouvez me contacter via : </span>
   <dl>
-    <dt>Email :</dt>
-    <dd>
-      <a href="mailto:shiny.stones1&#64;outllook.com">
-        shiny.stones1&#64;outllook.com
-      </a>
-    </dd>
     <dt>Instagram :</dt>
     <dd>
       <a href="https://www.instagram.com/stones.shiny/" target="_blank">
         https://www.instagram.com/stones.shiny/
       </a>
+    </dd>
+    <dt>Facebook :</dt>
+    <dd>
+      <a
+        href="https://www.facebook.com/profile.php?id=100054289129444"
+        target="_blank"
+      >
+        https://www.facebook.com/profile.php?id=100054289129444
+      </a>
+    </dd>
+    <dt>Email :</dt>
+    <dd class="mail">
+      <dl>
+        <dd><label for="prenom">Prénom</label></dd>
+        <dt><input id="prenom" [(ngModel)]="prenomContact" /></dt>
+        <dd><label for="nom">Nom</label></dd>
+        <dt><input id="nom" [(ngModel)]="nomContact" /></dt>
+        <dd><label for="objet">Objet</label></dd>
+        <dt>
+          <textarea
+            id="objet"
+            [(ngModel)]="objetContact"
+            style="width: 100%; height: 100px; margin-top: 7px"
+          ></textarea>
+        </dt>
+      </dl>
+      <a [attr.href]="mailTo" class="mail-send"> Envoyer </a>
     </dd>
   </dl>
 </div>

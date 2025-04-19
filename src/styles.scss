@@ -89,12 +89,12 @@ $screen-xl-min: 1200px;
 }
 
 :root {
-  --primary-color: #e7d3cc;
+  --primary-color: #fcfcf2;
   --primary-20-color: #ecddd7;
-  --primary-40-color: #c8b2a5;
+  --primary-40-color: #e7d3cc;
   --primary-60-color: #bca7a0;
-  --primary-font-color: #7b6044;
-  --secondary-color: #5c3f1d;
+  --primary-font-color: #9c5e48;
+  --secondary-color: #764737;
   --mat-paginator-container-text-color: #7b6044;
   --mdc-dialog-subhead-color: #5c3f1d;
 }
@@ -106,7 +106,7 @@ body {
   color: var(--primary-font-color);
 }
 body {
-  margin: 0;
+  margin: 0rem;
   font-family: rocaOne;
 }
 
@@ -127,7 +127,6 @@ img {
   align-items: center;
   h2 {
     font-size: 26px;
-    font-style: italic;
     margin: 0px;
     margin-bottom: 8px;
     font-weight: normal;
