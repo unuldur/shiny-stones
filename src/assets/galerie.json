@@ -1,9 +1,149 @@
 {
   "galerie": [
-    {
-      "nom": "Bracelet calcédoine améthyste nacre",
-      "image": "image_1.jfif",
-      "date": "2020-01-01"
+	{
+      "nom": "Bracelet en améthyste et calcédoine",
+      "image": "240330.jfif",
+      "date": "2024-03-30"
+    },
+	{
+      "nom": "Bracelet en howlite, pierre de lune et grenat",
+      "image": "241228.jpg",
+      "date": "2024-12-28"
+    },
+	{
+      "nom": "Bracelet en grenat et howlite",
+      "image": "241221-1.jfif",
+      "date": "2024-12-21"
+    },
+	{
+      "nom": "Bracelet en grenat et howlite",
+      "image": "241221-2.jfif",
+      "date": "2024-12-21"
+    },
+	{
+      "nom": "Bracelet 4 chakras en oeil de tigre, sodalite, malachite et pierre de lune",
+      "image": "241207.jfif",
+      "date": "2024-12-07"
+    },
+	{
+      "nom": "Bracelet en améthyste et hématite",
+      "image": "241130.jfif",
+      "date": "2024-11-30"
+    },
+	{
+      "nom": "Bracelet en onyx",
+      "image": "241123.jfif",
+      "date": "2024-11-23"
+    },
+	{
+      "nom": "Collier tressé en oeil de tigre",
+      "image": "241116.jpg",
+      "date": "2024-11-16"
+    },
+	{
+      "nom": "Bracelet en ambre et oeil de tigre",
+      "image": "241026.jpg",
+      "date": "2024-10-26"
+    },
+	{
+      "nom": "Bague en cornaline",
+      "image": "241005.jpg",
+      "date": "2024-10-05"
+    },
+	{
+      "nom": "Clou d'oreille en agate du botswana",
+      "image": "241003.jfif",
+      "date": "2024-10-03"
+    },
+	{
+      "nom": "Boucle d'oreille en sodalite et rhodocrosite",
+      "image": "241002.jpg",
+      "date": "2024-10-02"
+    },
+	{
+      "nom": "Bracelet en quartz rose et pierre de lune",
+      "image": "240926.jpg",
+      "date": "2024-09-26"
+    },
+	{
+      "nom": "Attrape-rêve en cornaline et sodalite",
+      "image": "240525.jpg",
+      "date": "2024-05-25"
+    },
+	{
+      "nom": "Pendentif en sodalite",
+      "image": "240413.jpg",
+      "date": "2024-04-13"
+    },
+	{
+      "nom": "Bague en calcédoine et pyrite de fer",
+      "image": "240406-1.jfif",
+      "date": "2024-04-06"
+    },
+	{
+      "nom": "Bracelet en calcédoine et pyrite de fer",
+      "image": "240406-4.jfif",
+      "date": "2024-04-06"
+    },
+	{
+      "nom": "Pendentif en calcédoine",
+      "image": "240406-2.jfif",
+      "date": "2024-04-06"
+    },
+	{
+      "nom": "Bracelet en pierre de lune",
+      "image": "240323.jfif",
+      "date": "2024-03-23"
+    },
+	{
+      "nom": "Bracelet en calcédoine et pyrite de fer",
+      "image": "240316.jfif",
+      "date": "2024-03-16"
+    },
+	{
+      "nom": "Bracelet en grenat, rhodocrosite et quartz fumé",
+      "image": "240309.jfif",
+      "date": "2024-03-09"
+    },
+	{
+      "nom": "Collier en améthyste et calcédoine",
+      "image": "240302-1.jpg",
+      "date": "2024-03-02"
+    },
+	{
+      "nom": "Bracelet en améthyste et calcédoine",
+      "image": "240302-2.jpg",
+      "date": "2024-03-02"
+    },
+	{
+      "nom": "Bracelet en howlite",
+      "image": "240224.jfif",
+      "date": "2024-02-24"
+    },
+	{
+      "nom": "Bracelet en améthyste, pierre de lune et quartz rose",
+      "image": "240217.jpg",
+      "date": "2024-02-17"
+    },
+	{
+      "nom": "Bracelet en howlite et quartz",
+      "image": "240210.jfif",
+      "date": "2024-02-10"
+    },
+	{
+      "nom": "Bracelet en obsidienne mouchetée",
+      "image": "240203.jpg",
+      "date": "2024-02-03"
+    },
+	{
+      "nom": "Bracelet en malachite, grenat et quartz fumé",
+      "image": "240127.jfif",
+      "date": "2024-01-27"
+    },
+	{
+      "nom": "Bracelet en oeil de tigre et pyrite de fer",
+      "image": "240106.jfif",
+      "date": "2024-01-06"
     },
 	{
       "nom": "Bracelet en lapis lazuli et hématite",
@@ -41,84 +181,39 @@
       "date": "2023-03-25"
     },
     {
-      "nom": "Bracelet de 6 mm en labradorite noire, nacre et calcédoine",
-      "image": "image_2.jfif",
-      "date": "2020-01-02"
-    },
-    {
-      "nom": "Bracelet de 6 mm en oeil de tigre et pyrite de fer",
-      "image": "image_3.jfif",
-      "date": "2020-01-03"
-    },
-    {
-      "nom": "Bracelet de 8 mm en grenat et howlite ",
+      "nom": "Bracelet de Noel en grenat et howlite ",
       "image": "image_5.jfif",
-      "date": "2020-01-05"
-    },
-    {
-      "nom": "Bracelet en malachite, grenat et quartz fumé",
-      "image": "image_7.jfif",
-      "date": "2020-01-07"
+      "date": "2024-21-12"
     },
     {
       "nom": "Pendentif en malachite",
-      "image": "image_10.jfif",
-      "date": "2020-01-10"
+      "image": "240420.jfif",
+      "date": "2024-04-20"
     },
     {
-      "nom": "Bracelet en perles de 6 mm d'hématite",
+      "nom": "Bracelet en perles de 6 mm de pyrite de fer",
       "image": "image_11.jfif",
       "date": "2020-01-11"
     },
     {
-      "nom": "Bracelet de 8 mm en grenat et howlite",
+      "nom": "Bracelet de Noel en grenat et howlite",
       "image": "image_12.jfif",
-      "date": "2020-01-12"
-    },
-    {
-      "nom": "Bracelet en perles de 6 mm en hématite et rhodocrosite",
-      "image": "image_20.jfif",
-      "date": "2020-01-20"
+      "date": "2024-12-21"
     },
     {
       "nom": "Bracelet de 6 mm en calcédoine",
-      "image": "image_24.jfif",
-      "date": "2020-01-24"
-    },
-    {
-      "nom": "Bracelet de 6 mm en hématite, améthyste et perles de bois",
-      "image": "image_25.jfif",
-      "date": "2020-01-25"
-    },
-    {
-      "nom": "Collier en perles de 6 mm en calcédoine et améthyste",
-      "image": "image_27.jfif",
-      "date": "2020-01-27"
+      "image": "241214.jfif",
+      "date": "2024-12-14"
     },
     {
       "nom": "Boucle d'oreille en labradorite bleue",
-      "image": "image_28.jfif",
-      "date": "2020-01-28"
+      "image": "240427.jfif",
+      "date": "2024-04-27"
     },
     {
       "nom": "Bracelet en perles de 6 mm d'agate",
       "image": "image_29.jfif",
       "date": "2020-01-29"
-    },
-    {
-      "nom": "Bracelet en perles de 8 mm en perles de lune",
-      "image": "image_31.jfif",
-      "date": "2020-01-31"
-    },
-    {
-      "nom": "Bracelet de 6 mm en améthyste et calcédoine",
-      "image": "image_33.jfif",
-      "date": "2020-02-02"
-    },
-    {
-      "nom": "Bracelet en perles de 6 mm en calcédoine, labradorite noire et nacre",
-      "image": "image_34.jfif",
-      "date": "2020-02-03"
     }
   ]
 }
