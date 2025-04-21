@@ -191,11 +191,6 @@
       "date": "2024-04-20"
     },
     {
-      "nom": "Bracelet en perles de 6 mm de pyrite de fer",
-      "image": "image_11.jfif",
-      "date": "2020-01-11"
-    },
-    {
       "nom": "Bracelet de Noel en grenat et howlite",
       "image": "image_12.jfif",
       "date": "2024-12-21"
@@ -209,6 +204,26 @@
       "nom": "Boucle d'oreille en labradorite bleue",
       "image": "240427.jfif",
       "date": "2024-04-27"
+    },
+	{
+      "nom": "Collier boussole en perles de culture et sodalite",
+      "image": "250107.jpg",
+      "date": "2025-01-07"
+    },
+	{
+      "nom": "Porte clé soleil en jaspe rouge",
+      "image": "250111.jpg",
+      "date": "2025-01-11"
+    },
+	{
+      "nom": "Bague en émeraude",
+      "image": "250206.jpg",
+      "date": "2025-02-06"
+    },
+	{
+      "nom": "Bracelet salamandre en kunzite, agate du botswana et malachite",
+      "image": "250417.jpg",
+      "date": "2025-04-17"
     },
     {
       "nom": "Bracelet en perles de 6 mm d'agate",
