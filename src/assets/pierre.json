@@ -1,6 +1,21 @@
 {
   "pierres": [
     {
+      "nom": "Hématite",
+      "chakra": "Racine",
+      "signesAstrologiques": "Bélier, Scorpion, Capricorne",
+      "purification": "Fumigation, Sel, bol chantant",
+      "rechargement": "Lumière lunaire, amas de quartz",
+      "paragraphes": [
+        "Sur le plan mental, la pierre hématite accompagne les femmes et les soutient dans leur timidité. Plus généralement, cette pierre aide à se faire respecter et renforce la confiance en soi.",
+		"Ainsi, l’hématite aide plus facilement à communiquer, à se concentrer et à consolider sa pensée. Sur le plan mental en lithothérapie et comme dit précédemment, la pierre hématite va renforcer la concentration et va permettre de consolider sa pensée, sa mémoire. La pierre naturelle hématite va permettre d’orienter son mental vers les besoins primaires, les besoins instinctifs et de survie.",
+		"Sur le plan physique, la pierre hématite joue également un rôle de renfort. Elle permet de régulariser et de consolider l’apport de sang dans l’organisme. Cette pierre naturelle joue un rôle identique sur la chaleur corporelle, permettant de l’harmoniser en fonction du besoin du plan physique.",
+		"Cette pierre naturelle offre de grandes propriétés, à commencer par la dissipation de la négati-vité. La pierre hématite dissipe les mauvaises énergies et protège l’enveloppe corporelle en réharmonisant la paix intérieure. Le travail de l’hématite se fait essentiellement sur les chakras sacrés et racine.",
+		"Parmi ses autres propriétés et vertus en lithothérapie, la pierre hématite lutterait contre les excès (mais ne remplace pas de traitements médicaux), et les addictions diverses. Si vous portez un pendentif hématite par exemple, au contact direct de la peau, il peut aider à purifier le sang, aider par ce biais les reins et aider à régénérer les tissus. L’hématite aide à former les globules rouges et à emmagasiner le fer."
+      ],
+      "image": "Hématite.jpg"
+    },
+	 {
       "nom": "Agate",
       "chakra": "7 chakras",
       "signesAstrologiques": "Gémeaux, Verseau, Cancer",
