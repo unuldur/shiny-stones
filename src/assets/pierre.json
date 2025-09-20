@@ -265,7 +265,20 @@
       "image": "JaspeRouge.jpg"
 	},
 	{
-      "nom": "Agate du Bréil",
+      "nom": "Agate du Brésil",
+      "chakra": "Racine",
+      "signesAstrologiques": "Lion, Scorpion, Capricorne, Sagittaire",
+	  "Origines": "Etats-Unis, Mexique, Brésil, Uruguay, Madagascar, Argentine",
+      "purification": "Eau salée, Fumigation.",
+      "rechargement": "Soleil, Terre.",
+      "paragraphes": [
+        "Sur le plan mental, c’est une pierre de protection et une pierre de chance. C’est une pierre d’ancrage qui aide à se reconnecter à l’essentiel et e détacher des possessions matérielles. Elle permet de se réapproprier son corps et à oser à nouveau s’affirmer. Elle aide à vivre entièrement l’instant présent et d’être à l’écoute de ses sensations. Elle permet ainsi d’amplifier l’état de pleine conscience. En développant la confiance en soi, elle encourage à identifier sa mission de vie et ses propres ressources internes. Elle lutte contre le stress, contribue à se sentir en sécurité et à améliorer la gestion des émotions. Elle permet donc de prendre du recul sur les évènements douloureux et déstabilisants.",
+		"Sur le plan physique, elle est énergisante et lutte contre la fatigue physique. Elle offre un regain de vitalité et de force et encourage à se remettre en mouvement. Elle améliore la circulation lymphatique. C’est indispensable pour une bonne immunité et équilibre le système hormonal. Elle aide dan le cadre de problème de peau (acné, eczéma, psoriasis). Elle diminue la sensation de lourdeur et de gonflement dans les extrémités. Elle est fortement reliée aux organes reproducteurs et elle protège la vessie. Elle permet de lutter contre les infections urinaires, préserve contre les problèmes intimes tels que les mycoses en maintenant une flore de qualité. Elle boost également la fertilité et augmente les chances de tomber enceinte. Elle renforce les glandes surrénales. En apaisant l’anxiété et le surmenage, elle réduit le taux de cortisol. "
+      ],
+      "image": "Agatedubrésil.jpg"
+	},
+	{
+      "nom": "Agate noire",
       "chakra": "Racine (rouge), Sacré (jaune/orangée), Cœur (verte), Coronal (blanche/grise)",
       "signesAstrologiques": "Taureau, Vierge, Capricorne, Gémeaux, Balance ",
 	  "Origines": "Brésil, Madagascar, Mexique, Inde, Uruguay, Allemagne, Etats-Unis, Botswana",
@@ -275,7 +288,7 @@
         "Sur le mental, elle apporte calme, sérénité et stabilité intérieure. Elle favorise la confiance en soi et encourage la communication douce et harmonieuse. Elle aide à réduire le stress et l’anxiété. ",
 		"Sur le plan physique, elle soutiendrait la digestion et apaise les tensions liées au stress. Elle aide à améliorer la circulation sanguine. Elle contribue à un meilleur sommeil. Elle favorise la vitalité douce et harmonise le corps énergétique. "
       ],
-      "image": "Agatedubrésil.jpg"
+      "image": "Agatenoire.jpg"
 	},
     {
       "nom": "Agate rubanée",
