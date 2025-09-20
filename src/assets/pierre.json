@@ -328,6 +328,20 @@
 		"Sur le plan physique, le Lapis-lazuli soutient le système nerveux et les fonctions cognitives, améliorant la mémoire et la capacité de concentration. Elle est bénéfique pour la gorge, le larynx et les voies respiratoires, et aide à soulager les maux de gorge ou les inflammations. Elle régule également la pression sanguine, favorise la détente musculaire et contribue à l’équilibre général de l’organisme."
       ],
       "image": "Lapislazuli.jpg"
+	},
+	{
+      "nom": "Quartz fumé",
+      "chakra": "Racine, Plexus solaire",
+      "signesAstrologiques": "Capricorne, Scorpion, Sagittaire",
+	  "Origines": "Brésil, Madagascar, Suisse, États-Unis",
+      "purification": "eau distillée ou fumigation à la sauge.",
+      "rechargement": "lumière de la pleine lune, amas de quartz ou soleil doux du matin",
+      "paragraphes": [
+        "Sur le plan psychologique, le Quartz fumé est une pierre de protection, d’ancrage et de stabilité émotionnelle. Elle aide à dissiper les énergies négatives et les pensées anxieuses, apportant calme et sérénité. Elle favorise le détachement émotionnel, permettant de sur-monter les peurs, le stress et les inquiétudes. C’est également une pierre qui stimule la res-ponsabilité, la concentration et la lucidité, aidant à prendre des décisions avec clarté et discernement. Elle est très utile pour ceux qui souhaitent se recentrer et renforcer leur confiance intérieure.",
+		"Sur le plan physique, le Quartz fumé soutient le système nerveux et les fonctions diges-tives, et contribue à la régulation du métabolisme. Il favorise l’ancrage énergétique, amé-liore la circulation sanguine et aide à éliminer les toxines de l’organisme. Il est aussi béné-fique pour soulager les tensions musculaires, les douleurs lombaires et les migraines liées au stress, tout en renforçant l’énergie vitale du corps."
+      ],
+      "image": "Quartzfumé.jpg"
+	},
     {
       "nom": "Agate rubanée",
       "chakra": "Racine",
