@@ -227,7 +227,7 @@
       "image": "agateBresil.png"
     },
     {
-      "nom": "Agate noire ou Onyx",
+      "nom": "Onyx",
       "chakra": "Racine, Sacré",
       "signesAstrologiques": "Lion, Capricorne, Balance",
 	  "purification": "eau, sel, terre, encens",
@@ -289,6 +289,19 @@
 		"Sur le plan physique, elle soutiendrait la digestion et apaise les tensions liées au stress. Elle aide à améliorer la circulation sanguine. Elle contribue à un meilleur sommeil. Elle favorise la vitalité douce et harmonise le corps énergétique. "
       ],
       "image": "Agatenoire.jpg"
+	},
+	{
+      "nom": "Cristal de roche",
+      "chakra": "Couronne",
+      "signesAstrologiques": "Lion, Capricorne, Verseau",
+	  "Origines": "Brésil, Madagascar, Himalaya, Alpes, États-Unis",
+      "purification": "eau distillée (éventuellement légèrement salée) ou fumigation à la sauge",
+      "rechargement": "Soleil doux, pleine lune ou amas de quartz.",
+      "paragraphes": [
+        "Sur le plan psychologique, le cristal de roche est une pierre de clarté et d’amplification énergétique. Il agit comme récepteur, émetteur et amplificateur des énergies. Il clarifie l’esprit, dissipe la confusion et favorise la concentration, la mémoire ainsi que la prise de décision. Il développe l’intuition, la perception spirituelle et facilite l’élévation de la conscience. Pierre d’harmonisation et de protection, elle purifie l’aura, dissout les blocages énergétiques et rétablit la circulation des énergies. Elle aide à dépasser les peurs, les doutes et les insécurités, tout en renforçant la confiance intérieure. Utilisé en méditation, il élève le taux vibratoire et favorise le contact avec des dimensions spirituelles supérieures.",
+		"Sur le plan physique, le cristal de roche agit comme un régulateur énergétique universel. Il renforce le système immunitaire, stimule la circulation sanguine et énergétique et soutient la régénération cellulaire. Il est utile pour apaiser les tensions, les migraines et les douleurs localisées, mais aussi pour améliorer la qualité du sommeil et combattre la fatigue chronique. Il stimule les fonctions cognitives, consolide la mémoire et accroît la vivacité d’esprit. Il favorise également l’équilibre du métabolisme et accompagne la vitalité générale du corps."
+      ],
+      "image": "Cristalderoche.jpg"
 	},
     {
       "nom": "Agate rubanée",
